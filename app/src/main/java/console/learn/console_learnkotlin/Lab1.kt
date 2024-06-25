@@ -16,10 +16,10 @@ class LAB1 {
     fun lab1() {
         var a = 0.0
         var b = 0.0
-        println("Nhập a:")
+        print("Nhập a = ")
         var s = readLine()
         if (s != null) a = s.toDouble()
-        println("Nhập b:")
+        print("Nhập b = ")
         s = readLine()
         if (s != null) b = s.toDouble()
         println("Tổng: " + (a + b))
@@ -28,5 +28,4 @@ class LAB1 {
         println("Thương: " + (a / b))
     }
 }
-
 
